@@ -8,8 +8,9 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/api/ngspam.js"
+      "src": "/api/ngspam",
+      "dest": "/api/ngspam.js",
+      "methods": ["GET", "POST", "OPTIONS"]
     }
   ]
 }
